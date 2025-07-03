@@ -1,5 +1,5 @@
 <?php
-include 'includes/koneksi.php';
+include '../includes/koneksi.php';
 
 $events = mysqli_query($conn, "SELECT * FROM events");
 
